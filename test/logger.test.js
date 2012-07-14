@@ -22,11 +22,14 @@
             "topic":function (config) {
                 return logger(config);
             },
-            "log a message":logTest("log"),
+            "log a notice":logTest("notice"),
             "log a debug message":logTest("debug"),
             "log an info message":logTest("info"),
             "log a severe message":logTest("severe"),
             "log a critical message":logTest("critical"),
+            "log a crit message":logTest("crit"),
+            "log a err message":logTest("err"),
+            "log a emergency message":logTest("emergency"),
             "log an error":logTest("error")
         };
 
@@ -36,8 +39,10 @@
                 logger[type]("test-" + type + now);
                 this.callback();
             },
-            "verify the result":function () {
-                // nothing
+            "verify the result":function (err) {
+                if (err) {
+                    throw err;
+                }
             }
         };
     }
