@@ -1,5 +1,5 @@
 {
-    "name":"logger",
+    "name":"jolira-logger",
     "version":"0.0.1",
     "description":"Write log messages to S3",
     "keywords":["logger", "s3"],
