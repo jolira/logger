@@ -1,0 +1,32 @@
+{
+    "name":"logger",
+    "version":"0.0.1",
+    "description":"Write log messages to S3",
+    "keywords":["logger", "s3"],
+    "contributors": [
+        "Joachim Kainz <jfk@jolira.com> (http://www.jolira.com)"
+    ],
+    "repository":{
+        "url":"https://github.com/jolira/logger.git",
+        "type":"git"
+    },
+    "bin": {
+    },
+    "devDependencies":{
+        "server-config": "*",
+        "debug":"*",
+        "horaa":"*",
+        "vows":"*",
+        "jake":"*"
+    },
+    "dependencies":{
+        "awssum":"*"
+    },
+    "bugs":{
+        "url":"http://github.com/jolira/logger/issues"
+    },
+    "main":"index",
+    "engines":{
+        "node":">= 0.6.0 < 0.9.0"
+    }
+}
