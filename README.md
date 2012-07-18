@@ -1,4 +1,4 @@
-logger
+logger [<img src="https://secure.travis-ci.org/jolira/logger.png" />](http://travis-ci.org/#!/jolira/logger)
 ========
 
 Writes structured log messages to S3 (if credentials are provided) or to standard out.
