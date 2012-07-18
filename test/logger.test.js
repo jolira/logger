@@ -51,7 +51,16 @@
     vows.describe('logger').addBatch({
         'load the configuration':{
             topic:function () {
-                loader("~/.hubz.json", this.callback);
+                loader({
+                    "aws-account-id":undefined,
+                    "aws-access-key-id":undefined,
+                    "aws-secret-access-key":undefined,
+                    "aws-region":undefined,
+                    "aws-bucket":undefined,
+                    "hostname":undefined,
+                    "measure-interval": 10000,
+                    "application-name":"test"
+                }, "~/.hubz.json", this.callback);
             },
             'create the logger object':createTest
         }
