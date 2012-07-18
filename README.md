@@ -9,9 +9,8 @@ var jolira = require('jolira-logger'),
         "aws-account-id":"8999-7199-8899",
         "aws-access-key-id":"0FL2BˆCEW5XED0TXXJG2",
         "aws-secret-access-key":"aP14UHZLYyMRx99QiXMonHHmU2kDBabHgZWnFZ06",
-        "aws-region":undefined,
-        "aws-bucket":undefined,
-        "hostname":undefined,
+        "aws-region":'us-west-1',
+        "aws-bucket":"jolira-logging",
         "measure-interval": 10000,
         "application-name":"test"
     });
