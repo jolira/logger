@@ -33,13 +33,13 @@ var jolira = require('jolira-logger'),
 
 Supported options are (all of them are optional):
 
-# ``aws-account-id``: The id of the amazon account to be used.
-# ``aws-access-key-id``: The amazon access key id.
-# ``aws-secret-access-key``: The amazon access key id.
-# ``aws-region``: The amazon region to be used. Acceptable values are ``'us-east-1'``, ``'us-west-1'``, ``'us-west-2'``,
+* ``aws-account-id``: The id of the amazon account to be used.
+* ``aws-access-key-id``: The amazon access key id.
+* ``aws-secret-access-key``: The amazon access key id.
+* ``aws-region``: The amazon region to be used. Acceptable values are ``'us-east-1'``, ``'us-west-1'``, ``'us-west-2'``,
                   ``'eu-west-1'``, ``'ap-southeast-1'``, ``'ap-northeast-1'``, ``'sa-east-1'``, and ``'us-gov-west-1'``.
-# ``aws-bucket``: The name of the bucket to be used.
-# ``hostname``: Can be used to specify a hostname. If omitted, ``os.hostname()`` will be used.
-# ``measure-interval``:  Specifies if and how often information about the OS and the node process should be logged. If
+* ``aws-bucket``: The name of the bucket to be used.
+* ``hostname``: Can be used to specify a hostname. If omitted, ``os.hostname()`` will be used.
+* ``measure-interval``:  Specifies if and how often information about the OS and the node process should be logged. If
                          omitted this information will not be logged. Specify an interval time in milliseconds.
-# ``application-name``: The application name to be used. If omitted, ugly file-names may be created.
+* ``application-name``: The application name to be used. If omitted, ugly file-names may be created.
