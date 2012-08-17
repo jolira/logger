@@ -1,6 +1,6 @@
 {
     "name":"jolira-logger",
-    "version":"0.2.1",
+    "version":"0.2.2",
     "description":"Write log messages to S3",
     "keywords":["logger", "s3"],
     "contributors": [
